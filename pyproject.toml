@@ -33,3 +33,9 @@ extend-select = [
 dev = [
     "ruff~=0.8.1",
 ]
+
+[tool.embed]
+post_clone = "pip install uv && uv pip install -r pyproject.toml"
+
+[[tool.embed.entrypoints]]
+path = "main.py"
