@@ -31,7 +31,7 @@ extend-select = [
 
 [dependency-groups]
 dev = [
-    "ruff~=0.8.1",
+    "ruff~=0.12.7",
 ]
 
 [tool.embed]
