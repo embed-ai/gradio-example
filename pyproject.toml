@@ -3,7 +3,7 @@ name = "gradio-demo"
 version = "0"
 requires-python = ">=3.12"
 dependencies = [
-    "gradio~=5.46.0",
+    "gradio~=5.47.0",
 ]
 
 [tool.pyright]
